@@ -1,0 +1,98 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+p,
+ul,
+ol,
+table,
+form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and some padding to the body */
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style paragraphs */
+p {
+    color: #555;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    /* Center the image */
+}
+
+/* Style lists */
+ul,
+ol {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style form */
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Style audio and video elements */
+audio,
+video {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Optional: Add some spacing for better readability */
+form,
+audio,
+video {
+    margin-bottom: 20px;
+}

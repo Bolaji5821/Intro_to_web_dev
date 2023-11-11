@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web Page</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body onresize="updateBackgroundColor()">
+    <h1>Hello, World!</h1>
+    <p>This is my first website</p>
+    <img id="dynamicImage" alt="Picture" />
+    <!-- New buttons -->
+    <button onclick="loadImage()">Load Image</button>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+    </ol>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+        </tr>
+    </table>
+    <form id="myForm" onsubmit="return validateForm()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Submit" onclick="validateForm()">
+    </form>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+</body>
+
+</html>
